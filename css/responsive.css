@@ -1,0 +1,137 @@
+/* ===========================
+TABLET
+=========================== */
+
+@media (min-width:768px){
+
+.nav-links{
+
+    display:flex !important;
+
+    position:static;
+
+    flex-direction:row;
+
+    background:none;
+
+    box-shadow:none;
+
+    padding:0;
+
+    gap:25px;
+
+}
+
+.menu-btn{
+
+    display:none;
+
+}
+
+
+}
+
+/* ===========================
+DESKTOP
+=========================== */
+
+@media (min-width:1024px) {
+    .hero {
+
+        flex-direction: row;
+
+        justify-content: space-between;
+
+        align-items: center;
+
+    }
+
+    .hero-content {
+
+        flex: 1;
+
+        text-align: left;
+
+    }
+
+    .hero-content p {
+
+        margin: 20px 0;
+
+    }
+
+    .hero-buttons {
+
+        justify-content: flex-start;
+
+    }
+
+    .hero-image {
+
+        flex: 1;
+
+    }
+
+    .navbar {
+
+        height: 85px;
+
+    }
+
+    .logo {
+
+        font-size: 1.8rem;
+
+    }
+
+    .nav-links {
+
+        gap: 35px;
+
+    }
+    .features-grid{
+
+    grid-template-columns:repeat(3,1fr);
+
+}
+.services-grid{
+
+    grid-template-columns:repeat(3,1fr);
+
+}
+
+.about{
+
+    flex-direction:row;
+
+    align-items:center;
+
+}
+
+.about-image{
+
+    flex:1;
+
+}
+
+.about-content{
+
+    flex:1;
+
+    text-align:left;
+
+}
+
+.testimonial-grid{
+
+    grid-template-columns:repeat(3,1fr);
+
+}
+
+}
+
+.footer{
+
+    grid-template-columns:repeat(3,1fr);
+
+}
